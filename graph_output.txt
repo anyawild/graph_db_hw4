@@ -1,0 +1,2 @@
+A textfile containing the output of each of your queries above
+(Or you may embed the output as comments in the .sql file.)
