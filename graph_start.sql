@@ -1,6 +1,6 @@
-drop database if exists graph;
-create database graph;
-use graph;
+-- drop database if exists graph;
+-- create database graph;
+-- use graph;
 
 create table node (
  node_id int primary key,
