@@ -1,7 +1,7 @@
 """
 filename: graph_recommend.py
 build the person/book graph and get recommendations for spencer.
-Contributions: Sahana
+Contributions: Sahana Dhar
 """
 from graph_api import add_node, add_edge, get_recommendations
 

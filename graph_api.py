@@ -1,7 +1,7 @@
 """
 filename: graph_api.py
-apis for adding nodes, finding adjacent nodes, and getting recommendations
-Contributions: Sahana
+apis for adding nodes, adding edges, finding adjacent nodes, and getting recommendations
+Contributions: Sahana Dhar
 """
 import redis
 
