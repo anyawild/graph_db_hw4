@@ -1,7 +1,7 @@
 """
 filename: graph_recommend.py
-
 build the person/book graph and get recommendations for spencer.
+Contributions: Sahana
 """
 from graph_api import add_node, add_edge, get_recommendations
 
@@ -39,9 +39,7 @@ def build_graph():
 
 def main():
     build_graph()
-
     recs = get_recommendations("Spencer")
-
     print("book recommendations for spencer:")
     for book in recs:
         print(book)

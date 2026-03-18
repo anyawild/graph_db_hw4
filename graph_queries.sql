@@ -3,6 +3,8 @@ filename: graph_queries.sql
 
 This file contains the SQL queries to answer the questions from Part 1,
 with the outputs of each embedded as comments below.
+
+Contributions: Anya Wild
 */
 
 

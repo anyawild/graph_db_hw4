@@ -1,7 +1,7 @@
 """
 filename: graph_api.py
-
-graph api for storing graphs in redis (part ii).
+apis for adding nodes, finding adjacent nodes, and getting recommendations
+Contributions: Sahana
 """
 import redis
 
@@ -74,7 +74,6 @@ def get_recommendations(name):
 
     # books already owned by name
     owned = set(get_adjacent(name, node_type="Book", edge_type="bought"))
-
     # remove already owned
     final = rec_books - owned
 
